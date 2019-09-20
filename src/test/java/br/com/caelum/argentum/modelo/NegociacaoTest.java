@@ -15,7 +15,6 @@ public class NegociacaoTest {
 		Negociacao negociacao = new Negociacao(10, 5, data);
 
 		negociacao.getData().set(Calendar.DAY_OF_MONTH, 20);
-		Assert.assertEquals(15, 10);
 		Assert.assertEquals(15, negociacao.getData().get(Calendar.DAY_OF_MONTH));
 	}
 	
